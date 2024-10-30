@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter</title>
+    <title>Twitter Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,51 +12,50 @@
         .container {
             width: 80%;
             margin: auto;
-            background-color: #B2FFFF;
+            background-color: #7FFFD4; /* Matching the greenish background */
             padding: 20px;
             border: 2px solid black;
         }
-        h1, h2 {
-            text-align: center;
-            color: darkblue;
-        }
         h1 {
+            text-align: center;
             font-size: 2em;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin-top: 20px;
+            color: black;
         }
         p {
             text-align: center;
             font-size: 1.2em;
-            margin: 10px 0;
+            color: black;
         }
         a {
             color: blue;
             text-decoration: none;
+            font-size: 1.1em;
         }
         a:hover {
             text-decoration: underline;
         }
         .twitter-logo {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100px; /* Adjust size as needed */
-        }
-        .twitter-facts img {
-            width: 200px; /* Adjust size as needed */
-            margin: 10px;
+            margin: 0 auto;
+            width: 100px;
+            margin-bottom: 10px;
         }
         .twitter-facts {
             text-align: center;
+            margin: 20px 0;
         }
-        .facts-list {
-            margin: 20px;
-            padding: 0 20px;
+        .twitter-facts img {
+            width: 150px;
+            margin: 10px;
+            border: 1px solid black;
+        }
+        ul {
+            list-style-type: decimal;
+            margin: 0 auto;
+            width: 60%;
             font-size: 1.1em;
+            text-align: left;
+            color: black;
         }
     </style>
 </head>
@@ -65,16 +64,16 @@
     <div class="container">
         <h1>Twitter</h1>
         <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="Twitter Logo" class="twitter-logo">
-        <p>Twitter is an American online news and social networking service in which users post and interact with messages known as "tweets".</p>
+        <p>Twitter is an American online news and social networking service on which users post and interact with messages known as "tweets".</p>
         <p><a href="https://twitter.com" target="_blank">Click Here To Visit Twitter</a></p>
 
-        <h2>Twitter Facts</h2>
         <div class="twitter-facts">
-            <img src="https://1000logos.net/wp-content/uploads/2017/06/logo-Twitter.png" alt="Twitter Facts Image 1">
-            <img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" alt="Twitter Facts Image 2">
+            <h2>Twitter Facts</h2>
+            <img src="https://1000logos.net/wp-content/uploads/2017/06/logo-Twitter.png" alt="Twitter Facts Logo 1">
+            <img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" alt="Twitter Facts Logo 2">
         </div>
 
-        <ul class="facts-list">
+        <ul>
             <li>Twitter has 335 million active monthly users!</li>
             <li>There are 500 million tweets per day.</li>
             <li>80% of Twitter users are on mobile devices.</li>
