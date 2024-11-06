@@ -3,43 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Create This Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #f0c040;
+            padding: 10px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            margin: 20px 0;
+        }
+        .video {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Amazon Section -->
-    <section id="amazon-section">
-        <h1>Amazon</h1>
-        <img src="amazon-logo.png" alt="Amazon Logo" width="100px">
-        <p>
-            Amazon (<strong>Amazon.com</strong>) is the world’s largest online retailer and a prominent cloud services provider.
-        </p>
-        <a href="https://www.amazon.com" target="_blank">Click Here to Visit Amazon!</a>
-    </section>
+<header>
+    <h1>Create This Webpage</h1>
+</header>
 
-    <!-- Amazon Prime Section -->
-    <section id="prime-section">
-        <h2>Amazon Prime</h2>
-        <p>Amazon Prime is a membership that costs $99 annually, but here are some reasons it may be worth it to purchase the membership:</p>
-        <ol>
-            <li>Free 2-Day Shipping</li>
-            <li>Streaming Video</li>
-            <li>Prime Music</li>
-            <li>Unlimited Photo Storage</li>
-            <li>Prime Pantry</li>
-        </ol>
-    </section>
+<div class="container">
+    <h2>All images are in your folder:</h2>
+    <a href="https://www.amazon.com" target="_blank">
+        <img src="amazon_image.jpg" alt="Amazon">
+    </a>
+    
+    <h2>Amazon Prime:</h2>
+    <p>Amazon Prime is a membership that can save you money, but you need to sign up to purchase it immediately.</p>
 
-    <!-- Amazon Video Section -->
-    <section id="video-section">
-        <h2>Amazon Video</h2>
-        <p>Here is a video that can help you decide if Amazon Prime is worth it:</p>
-        <video controls width="400px">
-            <source src="amazon-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+    <h2>Amazon Video:</h2>
+    <div class="video">
+        <video width="600" controls>
+            <source src="video_file.mp4" type="video/mp4">
+            
         </video>
-    </section>
+    </div>
+</div>
 
 </body>
 </html>
