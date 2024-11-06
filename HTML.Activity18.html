@@ -1,45 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-    <!-- Amazon Section -->
-    <section id="amazon-section">
-        <h1>Amazon</h1>
-        <img src="amazon-logo.png" alt="Amazon Logo" width="100px">
-        <p>
-            Amazon (<b>Amazon.com</b>) is the world’s largest online retailer and a prominent cloud services provider.
-        </p>
-        <a href="https://www.amazon.com" target="_blank">Click Here to Visit Amazon!</a>
-    </section>
+/* Amazon Section */
+#amazon-section {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
 
-    <!-- Amazon Prime Section -->
-    <section id="prime-section">
-        <h2>Amazon Prime</h2>
-        <p>Amazon Prime is a membership that costs $99 annually, but here are some reasons it may be worth it to purchase the membership:</p>
-        <ol>
-            <li>Free 2-Day Shipping</li>
-            <li>Streaming Video</li>
-            <li>Prime Music</li>
-            <li>Unlimited Photo Storage</li>
-            <li>Prime Pantry</li>
-        </ol>
-    </section>
+#amazon-section img {
+    display: block;
+    margin: 0 auto 10px;
+}
 
-    <!-- Amazon Video Section -->
-    <section id="video-section">
-        <h2>Amazon Video</h2>
-        <p>Here is a video that can help you decide if Amazon Prime is worth it:</p>
-        <video controls width="400px">
-            <source src="amazon-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
+#amazon-section p {
+    font-size: 16px;
+    margin: 10px 0;
+}
 
-</body>
-</html>
+#amazon-section a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Amazon Prime Section */
+#prime-section {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#prime-section ol {
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 400px;
+}
+
+/* Amazon Video Section */
+#video-section {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#video-section video {
+    margin: 10px auto;
+    display: block;
+}
